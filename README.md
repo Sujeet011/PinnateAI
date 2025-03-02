@@ -1,4 +1,5 @@
  #PinnateAI
+
 Objective:
 To create a professional and visually appealing website for PinnateAI, showcasing its AI-powered digital transformation solutions. The website aims to attract businesses looking for web development, AI solutions, digital marketing, data analytics, and chatbot development.
 
