@@ -22,13 +22,16 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1px 10%;
-    background: #ffffff;
-    color: black;
+    background: #25907e;
+    color: rgb(255, 254, 254);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+header img{
+    width: 20%;
 }
 
 .logo {
@@ -49,7 +52,7 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 253, 253);
     font-weight: 500;
     transition: 0.3s;
 }
@@ -62,8 +65,8 @@ header {
     text-align: center;
     padding: 160px 10%;
     background: rgb(0,36,20);
-    background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(9,121,90,1) 43%, rgba(0,212,255,1) 100%);
-    color: white;
+    background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(0,255,184,1) 0%, rgba(158,217,230,1) 100%);
+    color: rgb(0, 0, 0);
     margin-top: 50px;
     margin-bottom: -50px;
 }
@@ -86,7 +89,7 @@ header {
     font-weight: 600;
     text-decoration: none;
     color: #fff;
-    background: #f31717;
+    background: #178cf3;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -134,8 +137,8 @@ header {
     text-align: center;
     padding: 100px 10%;
     background: rgb(0,36,20);
-    background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(9,121,90,1) 43%, rgba(0,212,255,1) 100%);
-    color: white;
+    background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(0,255,184,1) 0%, rgba(158,217,230,1) 100%);
+    color: rgb(0, 0, 0);
 }
 
 #about h2 {
@@ -152,7 +155,7 @@ header {
 
 .about-box div {
     padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: 0.3s;
 }
@@ -279,8 +282,8 @@ header {
 
 footer {
     background: rgb(0,36,20);
-    background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(9,121,90,1) 43%, rgba(0,212,255,1) 100%);
-    color: white;
+    background: linear-gradient(90deg, rgba(0,36,20,1) 0%, rgba(0,255,184,1) 0%, rgba(158,217,230,1) 100%);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px 0;
     margin-top: 50px;
@@ -434,6 +437,9 @@ footer {
         align-items: center;
         padding: 15px 5%;
     }
+    header img {
+        width: 30%;
+    }
     
     .nav-links {
         flex-direction: column;
@@ -485,4 +491,85 @@ footer {
     .nav-links {
         display: none !important;
     }
+    
+#home h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#home p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+#home button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    background: #178cf3;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#home button:hover {
+    background: #7dd1e4;
+}
+.quick-links {
+    max-width: 20%;
+   text-align: 56%;
+}
+.quick-links h3,
+.social h3 {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+}
+.quick-links h3 {
+    margin-left: 150px;
+}
+.quick-links ul {
+    text-align: center;
+    margin-left: 150px;
+}
+.quick-links ul li {
+    margin: 8px 0;
+}
+.quick-links ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+.quick-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    max-width: 20%;
+    display: inline;
+}
+
+.social h3{
+    margin-left: 150px;
+}
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+    margin-left: 150px;
+}
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+footer {
+    margin-top: -50px;
+}
+.about img{
+  background-image: url('Pinnate.png');
+}
 }
